@@ -1,0 +1,23 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:         /articles/:year-:month/:title
+url:               "localhost:4000" # the base hostname & protocol for your site
+
+# Setup
+title:               "miNi Press"
+tagline:             "subTitle"
+description:         "Your description"
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
+
+timezone:          Asia/Seoul
+# About/contact
+author:
+  name:              Your-name
+  url:               Your-url
+  email:             Your-email
+
+# Custom vars
+version:             1.0.0
