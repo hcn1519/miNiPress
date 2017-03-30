@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Example content
-categories: jekyll
-tags: [jekyll, blogTheme]
-excerpt: "Your subtitle goes here"
+title: "Example Post"
+categories: Jekyll
+tags: [Jekyll, BlogTheme]
+excerpt: "MarkDown 문법으로 포스팅을 좀 더 다채롭게 만들어보세요."
 ---
 
 
@@ -121,5 +121,3 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 -----
-
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
