@@ -1,14 +1,4 @@
----
-layout: post
-title:  "Welcome to Jekyll miNi Press!"
-date:   2017-03-29 13:56:55 +0900
-categories: Jekyll
-tags: [Jekyll, BlogTheme]
-image:
-  feature: jekyll.jpg
-excerpt: "Welcome to MiniPress"
----
-
+# Github miNiPress
 
 <div class="message">
   Github 블로그에 오신 것을 환영합니다!
@@ -21,11 +11,13 @@ excerpt: "Welcome to MiniPress"
 
 **Github 블로그** 는 github에서 호스팅을 지원해주는 블로그 플랫폼으로 누구나 **Github** 계정이 있다면 시작할 수 있는  jekyll이라는 *static framework* 에 기반한 블로그입니다. **Github** 블로그의 가장 큰 장점은 `html`, `css`, `git` 을 조금만 알고 있다면 모든 기능 및 디자인을 마음대로 추가할 수 있는 자신만의 블로그를 무료로 만들 수 있는 것입니다.(혹은 몰라도 할 수 있습니다.) 무엇보다도 **무료** 입니다! 지금 바로 시작해보세요!
 
+-----
+
 ## Getting Started
 
 ### Using github-pages
 
-<img src="{{ site.baseurl }}/public/assets/github-Pages.png">
+<img src="https://rawgit.com/hcn1519/blogTheme/public/assets/github-Pages.png">
 
 [https://pages.github.com](https://pages.github.com)
 
@@ -37,19 +29,21 @@ excerpt: "Welcome to MiniPress"
 
 [https://github.com/hcn1519/miNiPress](https://github.com/hcn1519/miNiPress)
 
-<img src="{{ site.baseurl }}/public/assets/fork.png">
+<img src="https://rawgit.com/hcn1519/blogTheme/public/assets/fork.png">
 
 #### 2. Rename Repository
 
 해당 `Repository`가 블로그를 위해 사용된다는 것을 github이 알 수 있도록 `Repository`의 이름을 변경해줍니다. `Settings`탭에 들어가면, 이름을 변경할 수 있는데, 이 때 이름은 항상 `"username".github.io`의 형태이어야 합니다.(ex - `hcn1519.github.io`)
 
-<img src="{{ site.baseurl }}/public/assets/rename.png">
+<img src="https://rawgit.com/hcn1519/blogTheme/public/assets/rename.png">
 
 #### 3. All done!
 
-<img src="{{ site.baseurl }}/public/assets/youDone.png">
+<img src="https://rawgit.com/hcn1519/blogTheme/public/assets/youDone.png">
 
 여러분의 URL(`"username".github.io`)로 이동하면, 블로그가 만들어진 것을 확인할 수 있습니다.
+
+-----
 
 ### 첫 포스트 작성하기
 
@@ -57,16 +51,14 @@ excerpt: "Welcome to MiniPress"
 
 여러분의 `Repository`에서 바로 첫 포스트를 작성할 수 있습니다. `/_posts`로 이동 후 `test.md` 혹은 `test.html`을 생성합니다. 그리고 해당 파일에 헤더로(파일의 최상단에) 다음과 같은 필요한 포스트 정보를 작성합니다.
 
-{% highlight html %}
----
+```ruby
 layout: post
 title:  "Welcome to Jekyll miNi Press!"
 date:   2017-03-29 13:56:55 +0900
 categories: jekyll
 tags: [jekyll, blogTheme]
 excerpt: "Welcome to MiniPress"
----
-{% endhighlight %}
+```
 
 그리고 바로 아래에 포스트 내용을 작성하면 됩니다.
 
@@ -76,26 +68,23 @@ excerpt: "Welcome to MiniPress"
 
 프로젝트를 다운 받고, 해당 프로젝트의 `/_posts`로 이동 후 `test.md` 혹은 `test.html`을 생성합니다. 그리고 해당 파일에 헤더로(파일의 최상단에) 다음과 같은 필요한 포스트 정보를 작성합니다.
 
-{% highlight html %}
----
+```ruby
 layout: post
 title:  "Welcome to Jekyll miNi Press!"
 date:   2017-03-29 13:56:55 +0900
 categories: jekyll
 tags: [jekyll, blogTheme]
 excerpt: "Welcome to MiniPress"
----
-{% endhighlight %}
-
+```
 그리고 포스트 내용을 작성합니다. 이후, 다운 받은 프로젝트를 github으로 푸쉬하는 작업이 필요합니다. 터미널에서 다운 받은 프로젝트로 이동 후,
 
-{% highlight html %}
-git init
-git add -A
-git commit -m "Adding Test Post"
+```Bash shell scripts
+$ git init
+$ git add -A
+$ git commit -m "Adding Test Post"
 // username과 repo이름 설정이 필요합니다.
-git remote add origin remote "https://github.com/'github username'/'repo 이름'.git"
-git push -u origin master
-{% endhighlight %}
+$ git remote add origin remote "https://github.com/'github username'/'repo 이름'.git"
+$ git push -u origin master
+```
 
 해주시면, 글이 작성됩니다.
