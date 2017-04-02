@@ -17,7 +17,7 @@
 
 ### Using github-pages
 
-<img src="https://rawgit.com/hcn1519/blogTheme/master/public/assets/github-Pages.png">
+<img src="https://rawgit.com/hcn1519/miNiPress/master/public/assets/github-Pages.png">
 
 [https://pages.github.com](https://pages.github.com)
 
@@ -29,17 +29,17 @@
 
 [https://github.com/hcn1519/miNiPress](https://github.com/hcn1519/miNiPress)
 
-<img src="https://rawgit.com/hcn1519/blogTheme/master/public/assets/fork.png">
+<img src="https://rawgit.com/hcn1519/miNiPress/master/public/assets/fork.png">
 
 #### 2. Rename Repository
 
 해당 `Repository`가 블로그를 위해 사용된다는 것을 github이 알 수 있도록 `Repository`의 이름을 변경해줍니다. `Settings`탭에 들어가면, 이름을 변경할 수 있는데, 이 때 이름은 항상 `"username".github.io`의 형태이어야 합니다.(ex - `hcn1519.github.io`)
 
-<img src="https://rawgit.com/hcn1519/blogTheme/master/public/assets/rename.png">
+<img src="https://rawgit.com/hcn1519/miNiPress/master/public/assets/rename.png">
 
 #### 3. All done!
 
-<img src="https://rawgit.com/hcn1519/blogTheme/master/public/assets/youDone.png">
+<img src="https://rawgit.com/hcn1519/miNiPress/master/public/assets/youDone.png">
 
 여러분의 URL(`"username".github.io`)로 이동하면, 블로그가 만들어진 것을 확인할 수 있습니다.
 
@@ -88,3 +88,21 @@ $ git push -u origin master
 ```
 
 해주시면, 글이 작성됩니다.
+
+-----
+
+### Local Posting with Jekyll
+
+Jekyll을 설치하게 되면, 작성한 포스팅을 실제 블로그에 올리기 전에 내 컴퓨터에서 확인할 수 있습니다.
+
+```Bash shell scripts
+$ gem install jekyll
+```
+
+Jekyll이 설치되면, 터미널에서 설치된 블로그의 루트 경로로 이동합니다.
+
+```Bash shell scripts
+$ bundle exec jekyll serve
+```
+
+그리고 웹브라우저에서 `localhost:4000`으로 접속하면, 내 블로그의 내용들을 확인할 수 있습니다.
