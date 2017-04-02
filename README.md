@@ -17,7 +17,7 @@
 
 ### Using github-pages
 
-<img src="https://rawgit.com/hcn1519/blogTheme/public/assets/github-Pages.png">
+<img src="https://rawgit.com/hcn1519/blogTheme/master/public/assets/github-Pages.png">
 
 [https://pages.github.com](https://pages.github.com)
 
@@ -29,17 +29,17 @@
 
 [https://github.com/hcn1519/miNiPress](https://github.com/hcn1519/miNiPress)
 
-<img src="https://rawgit.com/hcn1519/blogTheme/public/assets/fork.png">
+<img src="https://rawgit.com/hcn1519/blogTheme/master/public/assets/fork.png">
 
 #### 2. Rename Repository
 
 해당 `Repository`가 블로그를 위해 사용된다는 것을 github이 알 수 있도록 `Repository`의 이름을 변경해줍니다. `Settings`탭에 들어가면, 이름을 변경할 수 있는데, 이 때 이름은 항상 `"username".github.io`의 형태이어야 합니다.(ex - `hcn1519.github.io`)
 
-<img src="https://rawgit.com/hcn1519/blogTheme/public/assets/rename.png">
+<img src="https://rawgit.com/hcn1519/blogTheme/master/public/assets/rename.png">
 
 #### 3. All done!
 
-<img src="https://rawgit.com/hcn1519/blogTheme/public/assets/youDone.png">
+<img src="https://rawgit.com/hcn1519/blogTheme/master/public/assets/youDone.png">
 
 여러분의 URL(`"username".github.io`)로 이동하면, 블로그가 만들어진 것을 확인할 수 있습니다.
 
