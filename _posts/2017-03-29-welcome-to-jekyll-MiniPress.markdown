@@ -14,6 +14,8 @@ excerpt: "Welcome to MiniPress"
   Github 블로그에 오신 것을 환영합니다!
 </div>
 
+Site Demo: [https://hcn1519.github.io](https://hcn1519.github.io)
+
 <figure class="animated_gif_frame" data-caption="GIF (2MB)">
   <img class="animated_gif" src="https://dl.dropboxusercontent.com/s/jrgk963ymu3fhpk/42BEB33A-AAAE-45AB-A4AB-858CD3AA5CEE-848-00000083B5261F0D.gif" data-source="https://dl.dropboxusercontent.com/s/jrgk963ymu3fhpk/42BEB33A-AAAE-45AB-A4AB-858CD3AA5CEE-848-00000083B5261F0D.gif" width="100%" height="auto">
 </figure>
