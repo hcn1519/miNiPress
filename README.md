@@ -1,9 +1,5 @@
 # Github miNiPress
 
-<div class="message">
-  Github 블로그에 오신 것을 환영합니다!
-</div>
-
 <figure class="animated_gif_frame" data-caption="GIF (2MB)">
   <img class="animated_gif" src="https://dl.dropboxusercontent.com/s/jrgk963ymu3fhpk/42BEB33A-AAAE-45AB-A4AB-858CD3AA5CEE-848-00000083B5261F0D.gif" data-source="https://dl.dropboxusercontent.com/s/jrgk963ymu3fhpk/42BEB33A-AAAE-45AB-A4AB-858CD3AA5CEE-848-00000083B5261F0D.gif" width="100%" height="auto">
 </figure>
@@ -76,7 +72,7 @@ categories: jekyll
 tags: [jekyll, blogTheme]
 excerpt: "Welcome to MiniPress"
 ```
-그리고 포스트 내용을 작성합니다. 이후, 다운 받은 프로젝트를 github으로 푸쉬하는 작업이 필요합니다. 터미널에서 다운 받은 프로젝트로 이동 후,
+그리고 포스트 내용을 작성합니다. 이후, 다운 받은 프로젝트를 github으로 푸쉬하는 작업이 필요합니다. 터미널에서 다운 받은 프로젝트로 이동 후, 다음 명령어를 순서대로 입력하면, 내 글이 서버에 올라가게 됩니다.
 
 ```Bash shell scripts
 $ git init
@@ -86,8 +82,6 @@ $ git commit -m "Adding Test Post"
 $ git remote add origin remote "https://github.com/'github username'/'repo 이름'.git"
 $ git push -u origin master
 ```
-
-해주시면, 글이 작성됩니다.
 
 -----
 
@@ -99,7 +93,7 @@ Jekyll을 설치하게 되면, 작성한 포스팅을 실제 블로그에 올리
 $ gem install jekyll
 ```
 
-Jekyll이 설치되면, 터미널에서 설치된 블로그의 루트 경로로 이동합니다.
+Jekyll이 설치되면, 터미널에서 설치된 블로그의 루트 경로로 이동합니다. 그리고 해당 경로에서 다음 명령어를 치게되면, 블로그가 local에서 실행됩니다.
 
 ```Bash shell scripts
 $ bundle exec jekyll serve
