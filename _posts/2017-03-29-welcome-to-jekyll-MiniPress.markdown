@@ -14,7 +14,7 @@ excerpt: "Welcome to MiniPress"
   Github 블로그에 오신 것을 환영합니다!
 </div>
 
-Site Demo: [https://hcn1519.github.io](https://hcn1519.github.io)
+Site Demo: [https://hcn1519.github.io/articles/2017-03/welcome-to-jekyll-MiniPress](https://hcn1519.github.io/articles/2017-03/welcome-to-jekyll-MiniPress)
 
 <figure class="animated_gif_frame" data-caption="GIF (2MB)">
   <img class="animated_gif" src="https://dl.dropboxusercontent.com/s/jrgk963ymu3fhpk/42BEB33A-AAAE-45AB-A4AB-858CD3AA5CEE-848-00000083B5261F0D.gif" data-source="https://dl.dropboxusercontent.com/s/jrgk963ymu3fhpk/42BEB33A-AAAE-45AB-A4AB-858CD3AA5CEE-848-00000083B5261F0D.gif" width="100%" height="auto">
@@ -92,12 +92,12 @@ excerpt: "Welcome to MiniPress"
 그리고 포스트 내용을 작성합니다. 이후, 다운 받은 프로젝트를 github으로 푸쉬하는 작업이 필요합니다. 터미널에서 다운 받은 프로젝트로 이동 후, 다음 명령어를 순서대로 입력하면, 내 글이 서버에 올라가게 됩니다.
 
 {% highlight html %}
-git init
-git add -A
-git commit -m "Adding Test Post"
+$ git init
+$ git add -A
+$ git commit -m "Adding Test Post"
 // username과 repo이름 설정이 필요합니다.
-git remote add origin remote "https://github.com/'github username'/'repo 이름'.git"
-git push -u origin master
+$ git remote add origin remote "https://github.com/'github username'/'repo 이름'.git"
+$ git push -u origin master
 {% endhighlight %}
 
 -----
@@ -106,14 +106,16 @@ git push -u origin master
 
 Jekyll을 설치하게 되면, 작성한 포스팅을 실제 블로그에 올리기 전에 내 컴퓨터에서 확인할 수 있습니다.
 
-```Bash shell scripts
+{% highlight Bash shell scripts %}
 $ gem install jekyll
-```
+{% endhighlight %}
 
 Jekyll이 설치되면, 터미널에서 설치된 블로그의 루트 경로로 이동합니다. 그리고 해당 경로에서 다음 명령어를 치게되면, 블로그가 local에서 실행됩니다.
 
-```Bash shell scripts
+{% highlight Bash shell scripts %}
 $ bundle exec jekyll serve
-```
+{% endhighlight %}
 
 그리고 웹브라우저에서 `localhost:4000`으로 접속하면, 내 블로그의 내용들을 확인할 수 있습니다.
+
+-----

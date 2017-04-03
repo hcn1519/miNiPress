@@ -183,7 +183,8 @@ GIF로 움직이는 이미지의 경우 아래 코드의 `src`와 `data-source` 
 ```html
 <figure class="animated_gif_frame" data-caption="GIF (2MB)">
   <img class="animated_gif" src="https://dl.dropboxusercontent.com/s/jrgk963ymu3fhpk/42BEB33A-AAAE-45AB-A4AB-858CD3AA5CEE-848-00000083B5261F0D.gif" data-source="https://dl.dropboxusercontent.com/s/jrgk963ymu3fhpk/42BEB33A-AAAE-45AB-A4AB-858CD3AA5CEE-848-00000083B5261F0D.gif" width="100%" height="auto">
-</figure>```
+</figure>
+```
 
 결과 이미지는 아래와 같습니다.
 
