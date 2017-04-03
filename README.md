@@ -186,6 +186,13 @@ GIF로 움직이는 이미지의 경우 아래 코드의 `src`와 `data-source` 
 </figure>
 ```
 
+결과 이미지는 아래와 같습니다.
+
+<figure class="animated_gif_frame" data-caption="GIF (2MB)">
+  <img class="animated_gif" src="https://dl.dropboxusercontent.com/s/jrgk963ymu3fhpk/42BEB33A-AAAE-45AB-A4AB-858CD3AA5CEE-848-00000083B5261F0D.gif"
+  data-source="https://dl.dropboxusercontent.com/s/jrgk963ymu3fhpk/42BEB33A-AAAE-45AB-A4AB-858CD3AA5CEE-848-00000083B5261F0D.gif" width="100%" height="auto">
+</figure>
+
 ## 5. 태그, 카테고리
 
 각 포스팅별로 원하는 태그와 카테고리를 설정할 수 있습니다. 태그는 전체 글 목록에서 노출되며 태그를 클릭할 경우, 태그별로 정리된 `/tags.html`로 이동하게 됩니다.
