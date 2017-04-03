@@ -7,7 +7,7 @@ Site Demo: [https://hcn1519.github.io/articles/2017-03/welcome-to-jekyll-MiniPre
 </figure>
 
 
-**Github 블로그** 는 github에서 호스팅을 지원해주는 블로그 플랫폼으로 누구나 **Github** 계정이 있다면 시작할 수 있는  jekyll이라는 *static framework* 에 기반한 블로그입니다. **Github** 블로그의 가장 큰 장점은 `html`, `css`, `git` 을 조금만 알고 있다면 모든 기능 및 디자인을 마음대로 ㄴ내 마음대로 설정할 수 있다는 점입니다. 무엇보다도 **무료** 입니다! 지금 바로 시작해보세요!
+**Github 블로그** 는 github에서 호스팅을 지원해주는 블로그 플랫폼으로 누구나 **Github** 계정이 있다면 시작할 수 있는  jekyll이라는 *static framework* 에 기반한 블로그입니다. **Github** 블로그의 가장 큰 장점은 `html`, `css`, `git` 을 조금만 알고 있다면 모든 기능 및 디자인을 마음대로 내 마음대로 설정할 수 있다는 점입니다. 무엇보다도 **무료** 입니다! 지금 바로 시작해보세요!
 
 -----
 
@@ -127,26 +127,7 @@ $ bundle exec jekyll serve
 
 ## 3. Syntax Highlighting
 
-코드 블럭에 적용되는 Syntax Highlighting의 테마는 기본적으로 `Tomorrow-Night`테마입니다. 해당 테마는 `/public/sass/syntax.scss.css`에서 변경할 수 있습니다. 예시는 아래와 같습니다.
-
-```swift
-# Swift 예시
-import XCTest
-class ProjectNameUITests: XCTestCase {
-  override func setUp() {
-     super.setUp()
-     continueAfterFailure = false
-     let app = XCUIApplication()
-     setupSnapshot(app)
-     app.launch()
- }
- override func tearDown() {
-     super.tearDown()
- }
- func testSnapshot() {
- }
-}
-```
+코드 블럭에 적용되는 Syntax Highlighting의 테마는 기본적으로 `Tomorrow-Night`테마입니다. 해당 테마는 `/public/sass/syntax.scss.css`에서 변경할 수 있습니다.
 
 ## 4. 이미지
 

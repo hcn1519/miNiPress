@@ -21,7 +21,7 @@ Site Demo: [https://hcn1519.github.io/articles/2017-03/welcome-to-jekyll-MiniPre
 </figure>
 
 
-**Github 블로그** 는 github에서 호스팅을 지원해주는 블로그 플랫폼으로 누구나 **Github** 계정이 있다면 시작할 수 있는  jekyll이라는 *static framework* 에 기반한 블로그입니다. **Github** 블로그의 가장 큰 장점은 `html`, `css`, `git` 을 조금만 알고 있다면 모든 기능 및 디자인을 마음대로 추가할 수 있는 자신만의 블로그를 무료로 만들 수 있는 것입니다.(혹은 몰라도 할 수 있습니다.) 무엇보다도 **무료** 입니다! 지금 바로 시작해보세요!
+**Github 블로그** 는 github에서 호스팅을 지원해주는 블로그 플랫폼으로 누구나 **Github** 계정이 있다면 시작할 수 있는  jekyll이라는 *static framework* 에 기반한 블로그입니다. **Github** 블로그의 가장 큰 장점은 `html`, `css`, `git` 을 조금만 알고 있다면 모든 기능 및 디자인을 마음대로 내 마음대로 설정할 수 있다는 점입니다. 무엇보다도 **무료** 입니다! 지금 바로 시작해보세요!
 
 ## Getting Started
 
