@@ -27,19 +27,6 @@
      src: url("/public/fonts/KoPubDotumLight.ttf");
  }
 
-/* 원하는 코드 블럭 폰트를 적용하세요 */
- @font-face {
-    font-family: 'Menlo Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: url("/public/fonts/Menlo-Regular.woff");
- }
- @font-face {
-    font-family: 'D2 Coding';
-    font-style: normal;
-    font-weight: normal;
-    src: url("/public/fonts/D2Coding.ttc");
- }
 
 /* Components 설정 */
 
