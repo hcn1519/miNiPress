@@ -1,6 +1,6 @@
 # Github miNiPress
 
-Site Demo: [https://hcn1519.github.io](https://hcn1519.github.io)
+Site Demo: [https://hcn1519.github.io/articles/2017-03/welcome-to-jekyll-MiniPress](https://hcn1519.github.io/articles/2017-03/welcome-to-jekyll-MiniPress)
 
 <figure class="animated_gif_frame" data-caption="GIF (2MB)">
   <img class="animated_gif" src="https://dl.dropboxusercontent.com/s/jrgk963ymu3fhpk/42BEB33A-AAAE-45AB-A4AB-858CD3AA5CEE-848-00000083B5261F0D.gif" data-source="https://dl.dropboxusercontent.com/s/jrgk963ymu3fhpk/42BEB33A-AAAE-45AB-A4AB-858CD3AA5CEE-848-00000083B5261F0D.gif" width="100%" height="auto">
@@ -50,12 +50,14 @@ Site Demo: [https://hcn1519.github.io](https://hcn1519.github.io)
 여러분의 `Repository`에서 바로 첫 포스트를 작성할 수 있습니다. `/_posts`로 이동 후 `test.md` 혹은 `test.html`을 생성합니다. 그리고 해당 파일에 헤더로(파일의 최상단에) 다음과 같은 필요한 포스트 정보를 작성합니다.
 
 ```ruby
+---
 layout: post
 title:  "Welcome to Jekyll miNi Press!"
 date:   2017-03-29 13:56:55 +0900
 categories: jekyll
 tags: [jekyll, blogTheme]
 excerpt: "Welcome to MiniPress"
+---
 ```
 
 그리고 바로 아래에 포스트 내용을 작성하면 됩니다.
@@ -67,12 +69,14 @@ excerpt: "Welcome to MiniPress"
 프로젝트를 다운 받고, 해당 프로젝트의 `/_posts`로 이동 후 `test.md` 혹은 `test.html`을 생성합니다. 그리고 해당 파일에 헤더로(파일의 최상단에) 다음과 같은 필요한 포스트 정보를 작성합니다.
 
 ```ruby
+---
 layout: post
 title:  "Welcome to Jekyll miNi Press!"
 date:   2017-03-29 13:56:55 +0900
 categories: jekyll
 tags: [jekyll, blogTheme]
 excerpt: "Welcome to MiniPress"
+---
 ```
 그리고 포스트 내용을 작성합니다. 이후, 다운 받은 프로젝트를 github으로 푸쉬하는 작업이 필요합니다. 터미널에서 다운 받은 프로젝트로 이동 후, 다음 명령어를 순서대로 입력하면, 내 글이 서버에 올라가게 됩니다.
 
@@ -151,30 +155,25 @@ class ProjectNameUITests: XCTestCase {
 ### (1) 블로그 프로젝트에 이미지를 추가하고 구현하기
 
 원하는 위치에 이미지를 프로젝트에 넣어두고, 이미지 태그의 `src` 경로를 올바르게 설정해줍니다.
-{% highlight html %}
+```html
 <img src="{{ site.baseurl }}/public/assets/github-Pages.png">
-{% endhighlight %}
-
-결과 이미지는 다음과 같습니다.
-<img src="{{ site.baseurl }}/public/assets/github-Pages.png">
+```
 
 ### (2) 외부 클라우드에 이미지 저장 후, 링크로 가져오기
 
 여기서는 dropbox에 대한 예시를 넣어두었습니다.
 
-{% highlight ruby %}
+```ruby
 # 링크 공유하면 나오는 URL
 https://www.dropbox.com/s/cspxnwj2ziqlfpg/getting_started.png?dl=0
 # www를 dl로 변경하고, png 이하 ?dl=0 제거
 https://dl.dropbox.com/s/cspxnwj2ziqlfpg/getting_started.png
-{% endhighlight %}
+```
 
 결과 적용 후 URL과 이미지
-{% highlight html %}
+```html
 <img src="https://dl.dropbox.com/s/cspxnwj2ziqlfpg/getting_started.png">
-{% endhighlight %}
-
-<img src="https://dl.dropbox.com/s/cspxnwj2ziqlfpg/getting_started.png">
+```
 
 ### (3) GIF extension
 
